@@ -4968,7 +4968,8 @@ input[type='button'].btn-block
     height: 1rem;
     margin-top: -.25rem;
 
-    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
     border: 0;
     border-radius: 1rem;
@@ -4981,7 +4982,8 @@ input[type='button'].btn-block
 {
     .custom-range::-webkit-slider-thumb
     {
-        transition: none;
+        -webkit-transition: none;
+                transition: none;
     }
 }
 .custom-range::-webkit-slider-thumb:active
@@ -5005,7 +5007,8 @@ input[type='button'].btn-block
     width: 1rem;
     height: 1rem;
 
-    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -moz-transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+         transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
     border: 0;
     border-radius: 1rem;
@@ -5018,7 +5021,8 @@ input[type='button'].btn-block
 {
     .custom-range::-moz-range-thumb
     {
-        transition: none;
+        -moz-transition: none;
+             transition: none;
     }
 }
 .custom-range::-moz-range-thumb:active
@@ -5045,7 +5049,8 @@ input[type='button'].btn-block
     margin-right: .2rem;
     margin-left: .2rem;
 
-    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -ms-transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
     border: 0;
     border-radius: 1rem;
@@ -5057,7 +5062,8 @@ input[type='button'].btn-block
 {
     .custom-range::-ms-thumb
     {
-        transition: none;
+        -ms-transition: none;
+            transition: none;
     }
 }
 .custom-range::-ms-thumb:active
